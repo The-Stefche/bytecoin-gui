@@ -1,4 +1,4 @@
-# bytecoin-gui
+# stefche-gui
 
 ## Requirements
 
@@ -20,14 +20,14 @@ TODO
 
 ### Linux
 ```
-$ git clone https://github.com/bcndev/bytecoin.git
-$ cd bytecoin
+$ git clone https://github.com/The-Stefche/stefche-gui.git
+$ cd stefche
 $ mkdir -p build
 $ cd build
 $ cmake ..
 $ make -j4 bytecoin-crypto
 $ cd ../..
-$ git clone https://github.com/bcndev/bytecoin-gui.git
+$ git clone https://github.com/The-Stefche/stefche-gui.git
 $ cd bytecoin-gui
 $ mkdir -p build
 $ cd build
