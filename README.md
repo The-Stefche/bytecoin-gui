@@ -25,10 +25,10 @@ $ cd stefche
 $ mkdir -p build
 $ cd build
 $ cmake ..
-$ make -j4 bytecoin-crypto
+$ make -j4 stefche-crypto
 $ cd ../..
 $ git clone https://github.com/The-Stefche/stefche-gui.git
-$ cd bytecoin-gui
+$ cd stefche-gui
 $ mkdir -p build
 $ cd build
 $ cmake ..
