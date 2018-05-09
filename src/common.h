@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2018, The Bytecoin developers.
+// Copyright (c) 2015-2018, The stefche developers.
 // Licensed under the GNU Lesser General Public License. See LICENSE for details.
 
 #ifndef COMMON_H
@@ -9,13 +9,13 @@
 
 class QUrl;
 
-constexpr const char* CURRENCY_TICKER = "BCN";
+constexpr const char* CURRENCY_TICKER = "STEF";
 constexpr const uint64_t MAXIMUM_UNSYNCED_BLOCKS_WHEN_SEND_AVAILABLE = 5;
-constexpr const uint64_t COIN = 100000000;
+constexpr const uint64_t COIN = 10000000;
 constexpr const uint32_t CONFIRMATIONS = 3;
 constexpr const int NUMBER_OF_DECIMAL_PLACES = 8;
 constexpr const int64_t DEFAULT_MIXIN_VALUE = 6;
-constexpr const int64_t MAX_MIXIN_VALUE = 1000;
+constexpr const int64_t MAX_MIXIN_VALUE = 100;
 constexpr const int64_t CRITICAL_MIXIN_BOUND = 3;
 constexpr const int64_t NORMAL_MIXIN_BOUND = 6;
 constexpr const uint16_t RPC_DEFAULT_PORT = 8070;
